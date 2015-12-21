@@ -14,6 +14,11 @@
 		5C5DC8801C22CFC60072B4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5DC87E1C22CFC60072B4CF /* LaunchScreen.storyboard */; };
 		5C5DC88B1C22CFC60072B4CF /* OneHabitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC88A1C22CFC60072B4CF /* OneHabitTests.swift */; };
 		5C5DC8961C22CFC60072B4CF /* OneHabitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC8951C22CFC60072B4CF /* OneHabitUITests.swift */; };
+		5C5DC8A41C2307CA0072B4CF /* HabitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC8A31C2307CA0072B4CF /* HabitModel.swift */; };
+		5C5DC8A61C230B6B0072B4CF /* AddHabitName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC8A51C230B6B0072B4CF /* AddHabitName.swift */; };
+		5CF98B751C28240600D5E832 /* AddHabitFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF98B741C28240600D5E832 /* AddHabitFrequency.swift */; };
+		5CF98B771C2825DB00D5E832 /* AddHabitQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF98B761C2825DB00D5E832 /* AddHabitQuestions.swift */; };
+		5CF98B791C28605400D5E832 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF98B781C28605400D5E832 /* Statistics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		5C5DC8911C22CFC60072B4CF /* OneHabitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneHabitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5DC8951C22CFC60072B4CF /* OneHabitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneHabitUITests.swift; sourceTree = "<group>"; };
 		5C5DC8971C22CFC60072B4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C5DC8A31C2307CA0072B4CF /* HabitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HabitModel.swift; sourceTree = "<group>"; };
+		5C5DC8A51C230B6B0072B4CF /* AddHabitName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHabitName.swift; sourceTree = "<group>"; };
+		5CF98B741C28240600D5E832 /* AddHabitFrequency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHabitFrequency.swift; sourceTree = "<group>"; };
+		5CF98B761C2825DB00D5E832 /* AddHabitQuestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHabitQuestions.swift; sourceTree = "<group>"; };
+		5CF98B781C28605400D5E832 /* Statistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				5C5DC87C1C22CFC60072B4CF /* Assets.xcassets */,
 				5C5DC87E1C22CFC60072B4CF /* LaunchScreen.storyboard */,
 				5C5DC8811C22CFC60072B4CF /* Info.plist */,
+				5C5DC8A31C2307CA0072B4CF /* HabitModel.swift */,
+				5C5DC8A51C230B6B0072B4CF /* AddHabitName.swift */,
+				5CF98B741C28240600D5E832 /* AddHabitFrequency.swift */,
+				5CF98B761C2825DB00D5E832 /* AddHabitQuestions.swift */,
+				5CF98B781C28605400D5E832 /* Statistics.swift */,
 			);
 			path = OneHabit;
 			sourceTree = "<group>";
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CF98B791C28605400D5E832 /* Statistics.swift in Sources */,
+				5CF98B771C2825DB00D5E832 /* AddHabitQuestions.swift in Sources */,
+				5C5DC8A41C2307CA0072B4CF /* HabitModel.swift in Sources */,
 				5C5DC8781C22CFC60072B4CF /* ViewController.swift in Sources */,
 				5C5DC8761C22CFC60072B4CF /* AppDelegate.swift in Sources */,
+				5C5DC8A61C230B6B0072B4CF /* AddHabitName.swift in Sources */,
+				5CF98B751C28240600D5E832 /* AddHabitFrequency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +502,7 @@
 				5C5DC89C1C22CFC60072B4CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C5DC89D1C22CFC60072B4CF /* Build configuration list for PBXNativeTarget "OneHabitTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +511,7 @@
 				5C5DC89F1C22CFC60072B4CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C5DC8A01C22CFC60072B4CF /* Build configuration list for PBXNativeTarget "OneHabitUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +520,7 @@
 				5C5DC8A21C22CFC60072B4CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
