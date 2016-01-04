@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C35C4BD1C36A1D2008751B9 /* AnalyticsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35C4BC1C36A1D2008751B9 /* AnalyticsPageViewController.swift */; };
+		5C35C4BF1C36F20A008751B9 /* HabitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35C4BE1C36F20A008751B9 /* HabitButton.swift */; };
+		5C35C4C11C3753BE008751B9 /* Settings-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C35C4C01C3753BE008751B9 /* Settings-50.png */; };
 		5C5DC8761C22CFC60072B4CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC8751C22CFC60072B4CF /* AppDelegate.swift */; };
 		5C5DC8781C22CFC60072B4CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC8771C22CFC60072B4CF /* ViewController.swift */; };
 		5C5DC87B1C22CFC60072B4CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5DC8791C22CFC60072B4CF /* Main.storyboard */; };
@@ -14,11 +17,29 @@
 		5C5DC8801C22CFC60072B4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5DC87E1C22CFC60072B4CF /* LaunchScreen.storyboard */; };
 		5C5DC88B1C22CFC60072B4CF /* OneHabitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC88A1C22CFC60072B4CF /* OneHabitTests.swift */; };
 		5C5DC8961C22CFC60072B4CF /* OneHabitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC8951C22CFC60072B4CF /* OneHabitUITests.swift */; };
-		5C5DC8A41C2307CA0072B4CF /* HabitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC8A31C2307CA0072B4CF /* HabitModel.swift */; };
 		5C5DC8A61C230B6B0072B4CF /* AddHabitName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC8A51C230B6B0072B4CF /* AddHabitName.swift */; };
+		5C7D1AED1C3B2B04004F7362 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D1AE81C3B2AEC004F7362 /* Charts.framework */; };
+		5C7D1AEE1C3B2B04004F7362 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D1AE81C3B2AEC004F7362 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5C7D1AF11C3B2B34004F7362 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D1AE81C3B2AEC004F7362 /* Charts.framework */; };
+		5C7D1B161C3B32D3004F7362 /* HabitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D1B141C3B32D2004F7362 /* HabitFramework.framework */; };
+		5C7D1B171C3B336B004F7362 /* HabitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D1B141C3B32D2004F7362 /* HabitFramework.framework */; };
+		5C7D1B181C3B336B004F7362 /* HabitFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D1B141C3B32D2004F7362 /* HabitFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5CF98B751C28240600D5E832 /* AddHabitFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF98B741C28240600D5E832 /* AddHabitFrequency.swift */; };
 		5CF98B771C2825DB00D5E832 /* AddHabitQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF98B761C2825DB00D5E832 /* AddHabitQuestions.swift */; };
-		5CF98B791C28605400D5E832 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF98B781C28605400D5E832 /* Statistics.swift */; };
+		5CFF71381C348B76006FAA2E /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFF71371C348B76006FAA2E /* NotificationCenter.framework */; };
+		5CFF713B1C348B76006FAA2E /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF713A1C348B76006FAA2E /* TodayViewController.swift */; };
+		5CFF713E1C348B76006FAA2E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CFF713C1C348B76006FAA2E /* MainInterface.storyboard */; };
+		5CFF71421C348B76006FAA2E /* OneHabit Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5CFF71351C348B76006FAA2E /* OneHabit Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5CFF714D1C348C48006FAA2E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CFF714B1C348C48006FAA2E /* Interface.storyboard */; };
+		5CFF714F1C348C48006FAA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFF714E1C348C48006FAA2E /* Assets.xcassets */; };
+		5CFF71561C348C49006FAA2E /* OneHabit Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5CFF71551C348C49006FAA2E /* OneHabit Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5CFF715D1C348C49006FAA2E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF715C1C348C49006FAA2E /* InterfaceController.swift */; };
+		5CFF715F1C348C49006FAA2E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF715E1C348C49006FAA2E /* ExtensionDelegate.swift */; };
+		5CFF71611C348C49006FAA2E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF71601C348C49006FAA2E /* NotificationController.swift */; };
+		5CFF71631C348C49006FAA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFF71621C348C49006FAA2E /* Assets.xcassets */; };
+		5CFF71671C348C49006FAA2E /* OneHabit Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5CFF71491C348C48006FAA2E /* OneHabit Watch.app */; };
+		5CFF721A1C35C60B006FAA2E /* CompletionChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF72191C35C60B006FAA2E /* CompletionChart.swift */; };
+		5CFF721B1C35C60B006FAA2E /* CompletionChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF72191C35C60B006FAA2E /* CompletionChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +57,109 @@
 			remoteGlobalIDString = 5C5DC8711C22CFC60072B4CF;
 			remoteInfo = OneHabit;
 		};
+		5C7D1AE71C3B2AEC004F7362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C7D1AE11C3B2AEC004F7362 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		5C7D1AE91C3B2AEC004F7362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C7D1AE11C3B2AEC004F7362 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		5C7D1AEB1C3B2AEC004F7362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C7D1AE11C3B2AEC004F7362 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		5C7D1AEF1C3B2B04004F7362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C7D1AE11C3B2AEC004F7362 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		5CFF71401C348B76006FAA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C5DC86A1C22CFC60072B4CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CFF71341C348B76006FAA2E;
+			remoteInfo = "OneHabit Widget";
+		};
+		5CFF71571C348C49006FAA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C5DC86A1C22CFC60072B4CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CFF71541C348C49006FAA2E;
+			remoteInfo = "OneHabit Watch Extension";
+		};
+		5CFF71651C348C49006FAA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C5DC86A1C22CFC60072B4CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CFF71481C348C48006FAA2E;
+			remoteInfo = "OneHabit Watch";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5C3B2F771C3B282E00CDC2CB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5C7D1B181C3B336B004F7362 /* HabitFramework.framework in Embed Frameworks */,
+				5C7D1AEE1C3B2B04004F7362 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFF71461C348B76006FAA2E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5CFF71421C348B76006FAA2E /* OneHabit Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFF716B1C348C49006FAA2E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5CFF71561C348C49006FAA2E /* OneHabit Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFF716F1C348C49006FAA2E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5CFF71671C348C49006FAA2E /* OneHabit Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5C35C4BC1C36A1D2008751B9 /* AnalyticsPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsPageViewController.swift; sourceTree = "<group>"; };
+		5C35C4BE1C36F20A008751B9 /* HabitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HabitButton.swift; sourceTree = "<group>"; };
+		5C35C4C01C3753BE008751B9 /* Settings-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-50.png"; sourceTree = "<group>"; };
 		5C5DC8721C22CFC60072B4CF /* OneHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5DC8751C22CFC60072B4CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C5DC8771C22CFC60072B4CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,11 +173,30 @@
 		5C5DC8911C22CFC60072B4CF /* OneHabitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneHabitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5DC8951C22CFC60072B4CF /* OneHabitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneHabitUITests.swift; sourceTree = "<group>"; };
 		5C5DC8971C22CFC60072B4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C5DC8A31C2307CA0072B4CF /* HabitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HabitModel.swift; sourceTree = "<group>"; };
 		5C5DC8A51C230B6B0072B4CF /* AddHabitName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHabitName.swift; sourceTree = "<group>"; };
+		5C7D1AE11C3B2AEC004F7362 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../ios-charts/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
+		5C7D1B141C3B32D2004F7362 /* HabitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HabitFramework.framework; sourceTree = "<group>"; };
 		5CF98B741C28240600D5E832 /* AddHabitFrequency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHabitFrequency.swift; sourceTree = "<group>"; };
 		5CF98B761C2825DB00D5E832 /* AddHabitQuestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHabitQuestions.swift; sourceTree = "<group>"; };
-		5CF98B781C28605400D5E832 /* Statistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		5CFF71351C348B76006FAA2E /* OneHabit Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OneHabit Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFF71371C348B76006FAA2E /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		5CFF713A1C348B76006FAA2E /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		5CFF713D1C348B76006FAA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		5CFF713F1C348B76006FAA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CFF71491C348C48006FAA2E /* OneHabit Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneHabit Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFF714C1C348C48006FAA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5CFF714E1C348C48006FAA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CFF71501C348C48006FAA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CFF71551C348C49006FAA2E /* OneHabit Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OneHabit Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFF715B1C348C49006FAA2E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5CFF715C1C348C49006FAA2E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5CFF715E1C348C49006FAA2E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		5CFF71601C348C49006FAA2E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5CFF71621C348C49006FAA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CFF71641C348C49006FAA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CFF71AD1C353ADB006FAA2E /* OneHabit Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "OneHabit Widget.entitlements"; sourceTree = "<group>"; };
+		5CFF71AE1C35494F006FAA2E /* OneHabit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = OneHabit.entitlements; sourceTree = "<group>"; };
+		5CFF72191C35C60B006FAA2E /* CompletionChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletionChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +204,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C7D1B171C3B336B004F7362 /* HabitFramework.framework in Frameworks */,
+				5C7D1AED1C3B2B04004F7362 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,15 +223,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CFF71321C348B76006FAA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7D1B161C3B32D3004F7362 /* HabitFramework.framework in Frameworks */,
+				5C7D1AF11C3B2B34004F7362 /* Charts.framework in Frameworks */,
+				5CFF71381C348B76006FAA2E /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFF71521C348C49006FAA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		5C5DC8691C22CFC60072B4CF = {
 			isa = PBXGroup;
 			children = (
+				5C7D1B141C3B32D2004F7362 /* HabitFramework.framework */,
+				5C7D1AE11C3B2AEC004F7362 /* Charts.xcodeproj */,
 				5C5DC8741C22CFC60072B4CF /* OneHabit */,
 				5C5DC8891C22CFC60072B4CF /* OneHabitTests */,
 				5C5DC8941C22CFC60072B4CF /* OneHabitUITests */,
+				5CFF71391C348B76006FAA2E /* OneHabit Widget */,
+				5CFF714A1C348C48006FAA2E /* OneHabit Watch */,
+				5CFF71591C348C49006FAA2E /* OneHabit Watch Extension */,
+				5CFF71361C348B76006FAA2E /* Frameworks */,
 				5C5DC8731C22CFC60072B4CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +265,9 @@
 				5C5DC8721C22CFC60072B4CF /* OneHabit.app */,
 				5C5DC8861C22CFC60072B4CF /* OneHabitTests.xctest */,
 				5C5DC8911C22CFC60072B4CF /* OneHabitUITests.xctest */,
+				5CFF71351C348B76006FAA2E /* OneHabit Widget.appex */,
+				5CFF71491C348C48006FAA2E /* OneHabit Watch.app */,
+				5CFF71551C348C49006FAA2E /* OneHabit Watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,17 +275,20 @@
 		5C5DC8741C22CFC60072B4CF /* OneHabit */ = {
 			isa = PBXGroup;
 			children = (
+				5C35C4C01C3753BE008751B9 /* Settings-50.png */,
+				5CFF71AE1C35494F006FAA2E /* OneHabit.entitlements */,
 				5C5DC8751C22CFC60072B4CF /* AppDelegate.swift */,
 				5C5DC8771C22CFC60072B4CF /* ViewController.swift */,
 				5C5DC8791C22CFC60072B4CF /* Main.storyboard */,
 				5C5DC87C1C22CFC60072B4CF /* Assets.xcassets */,
 				5C5DC87E1C22CFC60072B4CF /* LaunchScreen.storyboard */,
 				5C5DC8811C22CFC60072B4CF /* Info.plist */,
-				5C5DC8A31C2307CA0072B4CF /* HabitModel.swift */,
 				5C5DC8A51C230B6B0072B4CF /* AddHabitName.swift */,
 				5CF98B741C28240600D5E832 /* AddHabitFrequency.swift */,
 				5CF98B761C2825DB00D5E832 /* AddHabitQuestions.swift */,
-				5CF98B781C28605400D5E832 /* Statistics.swift */,
+				5CFF72191C35C60B006FAA2E /* CompletionChart.swift */,
+				5C35C4BC1C36A1D2008751B9 /* AnalyticsPageViewController.swift */,
+				5C35C4BE1C36F20A008751B9 /* HabitButton.swift */,
 			);
 			path = OneHabit;
 			sourceTree = "<group>";
@@ -140,6 +311,66 @@
 			path = OneHabitUITests;
 			sourceTree = "<group>";
 		};
+		5C7D1AE21C3B2AEC004F7362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C7D1AE81C3B2AEC004F7362 /* Charts.framework */,
+				5C7D1AEA1C3B2AEC004F7362 /* Charts.framework */,
+				5C7D1AEC1C3B2AEC004F7362 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CFF71361C348B76006FAA2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CFF71371C348B76006FAA2E /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CFF71391C348B76006FAA2E /* OneHabit Widget */ = {
+			isa = PBXGroup;
+			children = (
+				5CFF71AD1C353ADB006FAA2E /* OneHabit Widget.entitlements */,
+				5CFF713A1C348B76006FAA2E /* TodayViewController.swift */,
+				5CFF713C1C348B76006FAA2E /* MainInterface.storyboard */,
+				5CFF713F1C348B76006FAA2E /* Info.plist */,
+			);
+			path = "OneHabit Widget";
+			sourceTree = "<group>";
+		};
+		5CFF714A1C348C48006FAA2E /* OneHabit Watch */ = {
+			isa = PBXGroup;
+			children = (
+				5CFF714B1C348C48006FAA2E /* Interface.storyboard */,
+				5CFF714E1C348C48006FAA2E /* Assets.xcassets */,
+				5CFF71501C348C48006FAA2E /* Info.plist */,
+			);
+			path = "OneHabit Watch";
+			sourceTree = "<group>";
+		};
+		5CFF71591C348C49006FAA2E /* OneHabit Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5CFF715C1C348C49006FAA2E /* InterfaceController.swift */,
+				5CFF715E1C348C49006FAA2E /* ExtensionDelegate.swift */,
+				5CFF71601C348C49006FAA2E /* NotificationController.swift */,
+				5CFF71621C348C49006FAA2E /* Assets.xcassets */,
+				5CFF71641C348C49006FAA2E /* Info.plist */,
+				5CFF715A1C348C49006FAA2E /* Supporting Files */,
+			);
+			path = "OneHabit Watch Extension";
+			sourceTree = "<group>";
+		};
+		5CFF715A1C348C49006FAA2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CFF715B1C348C49006FAA2E /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,10 +381,16 @@
 				5C5DC86E1C22CFC60072B4CF /* Sources */,
 				5C5DC86F1C22CFC60072B4CF /* Frameworks */,
 				5C5DC8701C22CFC60072B4CF /* Resources */,
+				5CFF71461C348B76006FAA2E /* Embed App Extensions */,
+				5CFF716F1C348C49006FAA2E /* Embed Watch Content */,
+				5C3B2F771C3B282E00CDC2CB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5CFF71411C348B76006FAA2E /* PBXTargetDependency */,
+				5CFF71661C348C49006FAA2E /* PBXTargetDependency */,
+				5C7D1AF01C3B2B04004F7362 /* PBXTargetDependency */,
 			);
 			name = OneHabit;
 			productName = OneHabit;
@@ -196,6 +433,57 @@
 			productReference = 5C5DC8911C22CFC60072B4CF /* OneHabitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		5CFF71341C348B76006FAA2E /* OneHabit Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFF71431C348B76006FAA2E /* Build configuration list for PBXNativeTarget "OneHabit Widget" */;
+			buildPhases = (
+				5CFF71311C348B76006FAA2E /* Sources */,
+				5CFF71321C348B76006FAA2E /* Frameworks */,
+				5CFF71331C348B76006FAA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OneHabit Widget";
+			productName = "OneHabit Widget";
+			productReference = 5CFF71351C348B76006FAA2E /* OneHabit Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5CFF71481C348C48006FAA2E /* OneHabit Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFF716C1C348C49006FAA2E /* Build configuration list for PBXNativeTarget "OneHabit Watch" */;
+			buildPhases = (
+				5CFF71471C348C48006FAA2E /* Resources */,
+				5CFF716B1C348C49006FAA2E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CFF71581C348C49006FAA2E /* PBXTargetDependency */,
+			);
+			name = "OneHabit Watch";
+			productName = "OneHabit Watch";
+			productReference = 5CFF71491C348C48006FAA2E /* OneHabit Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5CFF71541C348C49006FAA2E /* OneHabit Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFF71681C348C49006FAA2E /* Build configuration list for PBXNativeTarget "OneHabit Watch Extension" */;
+			buildPhases = (
+				5CFF71511C348C49006FAA2E /* Sources */,
+				5CFF71521C348C49006FAA2E /* Frameworks */,
+				5CFF71531C348C49006FAA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OneHabit Watch Extension";
+			productName = "OneHabit Watch Extension";
+			productReference = 5CFF71551C348C49006FAA2E /* OneHabit Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,6 +496,12 @@
 				TargetAttributes = {
 					5C5DC8711C22CFC60072B4CF = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Y92N3XJZ5N;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					5C5DC8851C22CFC60072B4CF = {
 						CreatedOnToolsVersion = 7.2;
@@ -216,6 +510,22 @@
 					5C5DC8901C22CFC60072B4CF = {
 						CreatedOnToolsVersion = 7.2;
 						TestTargetID = 5C5DC8711C22CFC60072B4CF;
+					};
+					5CFF71341C348B76006FAA2E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Y92N3XJZ5N;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					5CFF71481C348C48006FAA2E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Y92N3XJZ5N;
+					};
+					5CFF71541C348C49006FAA2E = {
+						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
@@ -230,14 +540,47 @@
 			mainGroup = 5C5DC8691C22CFC60072B4CF;
 			productRefGroup = 5C5DC8731C22CFC60072B4CF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5C7D1AE21C3B2AEC004F7362 /* Products */;
+					ProjectRef = 5C7D1AE11C3B2AEC004F7362 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5C5DC8711C22CFC60072B4CF /* OneHabit */,
 				5C5DC8851C22CFC60072B4CF /* OneHabitTests */,
 				5C5DC8901C22CFC60072B4CF /* OneHabitUITests */,
+				5CFF71341C348B76006FAA2E /* OneHabit Widget */,
+				5CFF71481C348C48006FAA2E /* OneHabit Watch */,
+				5CFF71541C348C49006FAA2E /* OneHabit Watch Extension */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5C7D1AE81C3B2AEC004F7362 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 5C7D1AE71C3B2AEC004F7362 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5C7D1AEA1C3B2AEC004F7362 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 5C7D1AE91C3B2AEC004F7362 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5C7D1AEC1C3B2AEC004F7362 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 5C7D1AEB1C3B2AEC004F7362 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5C5DC8701C22CFC60072B4CF /* Resources */ = {
@@ -245,6 +588,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C5DC8801C22CFC60072B4CF /* LaunchScreen.storyboard in Resources */,
+				5C35C4C11C3753BE008751B9 /* Settings-50.png in Resources */,
 				5C5DC87D1C22CFC60072B4CF /* Assets.xcassets in Resources */,
 				5C5DC87B1C22CFC60072B4CF /* Main.storyboard in Resources */,
 			);
@@ -264,6 +608,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CFF71331C348B76006FAA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFF713E1C348B76006FAA2E /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFF71471C348C48006FAA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFF714F1C348C48006FAA2E /* Assets.xcassets in Resources */,
+				5CFF714D1C348C48006FAA2E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFF71531C348C49006FAA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFF71631C348C49006FAA2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -271,13 +640,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CF98B791C28605400D5E832 /* Statistics.swift in Sources */,
+				5C35C4BF1C36F20A008751B9 /* HabitButton.swift in Sources */,
 				5CF98B771C2825DB00D5E832 /* AddHabitQuestions.swift in Sources */,
-				5C5DC8A41C2307CA0072B4CF /* HabitModel.swift in Sources */,
+				5CFF721A1C35C60B006FAA2E /* CompletionChart.swift in Sources */,
 				5C5DC8781C22CFC60072B4CF /* ViewController.swift in Sources */,
 				5C5DC8761C22CFC60072B4CF /* AppDelegate.swift in Sources */,
 				5C5DC8A61C230B6B0072B4CF /* AddHabitName.swift in Sources */,
 				5CF98B751C28240600D5E832 /* AddHabitFrequency.swift in Sources */,
+				5C35C4BD1C36A1D2008751B9 /* AnalyticsPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +667,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CFF71311C348B76006FAA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFF721B1C35C60B006FAA2E /* CompletionChart.swift in Sources */,
+				5CFF713B1C348B76006FAA2E /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFF71511C348C49006FAA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFF71611C348C49006FAA2E /* NotificationController.swift in Sources */,
+				5CFF715F1C348C49006FAA2E /* ExtensionDelegate.swift in Sources */,
+				5CFF715D1C348C49006FAA2E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -309,6 +698,26 @@
 			isa = PBXTargetDependency;
 			target = 5C5DC8711C22CFC60072B4CF /* OneHabit */;
 			targetProxy = 5C5DC8921C22CFC60072B4CF /* PBXContainerItemProxy */;
+		};
+		5C7D1AF01C3B2B04004F7362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = 5C7D1AEF1C3B2B04004F7362 /* PBXContainerItemProxy */;
+		};
+		5CFF71411C348B76006FAA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CFF71341C348B76006FAA2E /* OneHabit Widget */;
+			targetProxy = 5CFF71401C348B76006FAA2E /* PBXContainerItemProxy */;
+		};
+		5CFF71581C348C49006FAA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CFF71541C348C49006FAA2E /* OneHabit Watch Extension */;
+			targetProxy = 5CFF71571C348C49006FAA2E /* PBXContainerItemProxy */;
+		};
+		5CFF71661C348C49006FAA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CFF71481C348C48006FAA2E /* OneHabit Watch */;
+			targetProxy = 5CFF71651C348C49006FAA2E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -327,6 +736,22 @@
 				5C5DC87F1C22CFC60072B4CF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5CFF713C1C348B76006FAA2E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CFF713D1C348B76006FAA2E /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		5CFF714B1C348C48006FAA2E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CFF714C1C348C48006FAA2E /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -417,10 +842,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OneHabit/OneHabit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OneHabit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MitraPandey.OneHabit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -428,10 +863,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OneHabit/OneHabit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OneHabit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MitraPandey.OneHabit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -483,6 +928,110 @@
 			};
 			name = Release;
 		};
+		5CFF71441C348B76006FAA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "OneHabit Widget/OneHabit Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "OneHabit Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MitraPandey.OneHabit.OneHabit-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5CFF71451C348B76006FAA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "OneHabit Widget/OneHabit Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "OneHabit Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MitraPandey.OneHabit.OneHabit-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5CFF71691C348C49006FAA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OneHabit Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MitraPandey.OneHabit.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		5CFF716A1C348C49006FAA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OneHabit Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MitraPandey.OneHabit.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		5CFF716D1C348C49006FAA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = OneHabit_Watch_Extension;
+				INFOPLIST_FILE = "OneHabit Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = MitraPandey.OneHabit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		5CFF716E1C348C49006FAA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = OneHabit_Watch_Extension;
+				INFOPLIST_FILE = "OneHabit Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = MitraPandey.OneHabit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -518,6 +1067,33 @@
 			buildConfigurations = (
 				5C5DC8A11C22CFC60072B4CF /* Debug */,
 				5C5DC8A21C22CFC60072B4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CFF71431C348B76006FAA2E /* Build configuration list for PBXNativeTarget "OneHabit Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFF71441C348B76006FAA2E /* Debug */,
+				5CFF71451C348B76006FAA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CFF71681C348C49006FAA2E /* Build configuration list for PBXNativeTarget "OneHabit Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFF71691C348C49006FAA2E /* Debug */,
+				5CFF716A1C348C49006FAA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CFF716C1C348C49006FAA2E /* Build configuration list for PBXNativeTarget "OneHabit Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFF716D1C348C49006FAA2E /* Debug */,
+				5CFF716E1C348C49006FAA2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
