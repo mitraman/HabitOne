@@ -18,12 +18,12 @@
 		5C5DC88B1C22CFC60072B4CF /* OneHabitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC88A1C22CFC60072B4CF /* OneHabitTests.swift */; };
 		5C5DC8961C22CFC60072B4CF /* OneHabitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC8951C22CFC60072B4CF /* OneHabitUITests.swift */; };
 		5C5DC8A61C230B6B0072B4CF /* AddHabitName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DC8A51C230B6B0072B4CF /* AddHabitName.swift */; };
-		5C7D1AED1C3B2B04004F7362 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D1AE81C3B2AEC004F7362 /* Charts.framework */; };
-		5C7D1AEE1C3B2B04004F7362 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D1AE81C3B2AEC004F7362 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5C7D1AF11C3B2B34004F7362 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D1AE81C3B2AEC004F7362 /* Charts.framework */; };
-		5C7D1B161C3B32D3004F7362 /* HabitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D1B141C3B32D2004F7362 /* HabitFramework.framework */; };
-		5C7D1B171C3B336B004F7362 /* HabitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D1B141C3B32D2004F7362 /* HabitFramework.framework */; };
-		5C7D1B181C3B336B004F7362 /* HabitFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D1B141C3B32D2004F7362 /* HabitFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5CD461BF1C3C04F80042EDCB /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D1AE81C3B2AEC004F7362 /* Charts.framework */; };
+		5CD461C01C3C04F80042EDCB /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D1AE81C3B2AEC004F7362 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5CD461C61C3C05220042EDCB /* HabitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD461C41C3C05220042EDCB /* HabitFramework.framework */; };
+		5CD461C71C3C052E0042EDCB /* HabitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD461C41C3C05220042EDCB /* HabitFramework.framework */; };
+		5CD461C81C3C052E0042EDCB /* HabitFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD461C41C3C05220042EDCB /* HabitFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5CF98B751C28240600D5E832 /* AddHabitFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF98B741C28240600D5E832 /* AddHabitFrequency.swift */; };
 		5CF98B771C2825DB00D5E832 /* AddHabitQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF98B761C2825DB00D5E832 /* AddHabitQuestions.swift */; };
 		5CFF71381C348B76006FAA2E /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFF71371C348B76006FAA2E /* NotificationCenter.framework */; };
@@ -78,7 +78,7 @@
 			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
 			remoteInfo = ChartsTests;
 		};
-		5C7D1AEF1C3B2B04004F7362 /* PBXContainerItemProxy */ = {
+		5CD461C11C3C04F80042EDCB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5C7D1AE11C3B2AEC004F7362 /* Charts.xcodeproj */;
 			proxyType = 1;
@@ -109,14 +109,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5C3B2F771C3B282E00CDC2CB /* Embed Frameworks */ = {
+		5CD461C31C3C04F80042EDCB /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5C7D1B181C3B336B004F7362 /* HabitFramework.framework in Embed Frameworks */,
-				5C7D1AEE1C3B2B04004F7362 /* Charts.framework in Embed Frameworks */,
+				5CD461C81C3C052E0042EDCB /* HabitFramework.framework in Embed Frameworks */,
+				5CD461C01C3C04F80042EDCB /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,7 +175,7 @@
 		5C5DC8971C22CFC60072B4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C5DC8A51C230B6B0072B4CF /* AddHabitName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHabitName.swift; sourceTree = "<group>"; };
 		5C7D1AE11C3B2AEC004F7362 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../ios-charts/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
-		5C7D1B141C3B32D2004F7362 /* HabitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HabitFramework.framework; sourceTree = "<group>"; };
+		5CD461C41C3C05220042EDCB /* HabitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HabitFramework.framework; sourceTree = "<group>"; };
 		5CF98B741C28240600D5E832 /* AddHabitFrequency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHabitFrequency.swift; sourceTree = "<group>"; };
 		5CF98B761C2825DB00D5E832 /* AddHabitQuestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHabitQuestions.swift; sourceTree = "<group>"; };
 		5CFF71351C348B76006FAA2E /* OneHabit Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OneHabit Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -204,8 +204,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C7D1B171C3B336B004F7362 /* HabitFramework.framework in Frameworks */,
-				5C7D1AED1C3B2B04004F7362 /* Charts.framework in Frameworks */,
+				5CD461C71C3C052E0042EDCB /* HabitFramework.framework in Frameworks */,
+				5CD461BF1C3C04F80042EDCB /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +227,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C7D1B161C3B32D3004F7362 /* HabitFramework.framework in Frameworks */,
+				5CD461C61C3C05220042EDCB /* HabitFramework.framework in Frameworks */,
 				5C7D1AF11C3B2B34004F7362 /* Charts.framework in Frameworks */,
 				5CFF71381C348B76006FAA2E /* NotificationCenter.framework in Frameworks */,
 			);
@@ -246,7 +246,7 @@
 		5C5DC8691C22CFC60072B4CF = {
 			isa = PBXGroup;
 			children = (
-				5C7D1B141C3B32D2004F7362 /* HabitFramework.framework */,
+				5CD461C41C3C05220042EDCB /* HabitFramework.framework */,
 				5C7D1AE11C3B2AEC004F7362 /* Charts.xcodeproj */,
 				5C5DC8741C22CFC60072B4CF /* OneHabit */,
 				5C5DC8891C22CFC60072B4CF /* OneHabitTests */,
@@ -383,14 +383,14 @@
 				5C5DC8701C22CFC60072B4CF /* Resources */,
 				5CFF71461C348B76006FAA2E /* Embed App Extensions */,
 				5CFF716F1C348C49006FAA2E /* Embed Watch Content */,
-				5C3B2F771C3B282E00CDC2CB /* Embed Frameworks */,
+				5CD461C31C3C04F80042EDCB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				5CFF71411C348B76006FAA2E /* PBXTargetDependency */,
 				5CFF71661C348C49006FAA2E /* PBXTargetDependency */,
-				5C7D1AF01C3B2B04004F7362 /* PBXTargetDependency */,
+				5CD461C21C3C04F80042EDCB /* PBXTargetDependency */,
 			);
 			name = OneHabit;
 			productName = OneHabit;
@@ -699,10 +699,10 @@
 			target = 5C5DC8711C22CFC60072B4CF /* OneHabit */;
 			targetProxy = 5C5DC8921C22CFC60072B4CF /* PBXContainerItemProxy */;
 		};
-		5C7D1AF01C3B2B04004F7362 /* PBXTargetDependency */ = {
+		5CD461C21C3C04F80042EDCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Charts-iOS";
-			targetProxy = 5C7D1AEF1C3B2B04004F7362 /* PBXContainerItemProxy */;
+			targetProxy = 5CD461C11C3C04F80042EDCB /* PBXContainerItemProxy */;
 		};
 		5CFF71411C348B76006FAA2E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -846,10 +846,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/**",
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				INFOPLIST_FILE = OneHabit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -867,10 +864,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/**",
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				INFOPLIST_FILE = OneHabit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
